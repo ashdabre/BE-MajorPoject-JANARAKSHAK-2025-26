@@ -1,0 +1,9 @@
+1 terminal- 
+npm install groq-sdk
+npm install
+npx expo start
+
+
+2 terminal- uvicorn main:app --host 0.0.0.0 --port 5000 --reload 
+
+pip install fastapi uvicorn whisper openai-whisper aiofiles aiohttp requests pdfplumber sentence-transformers faiss-cpu numpy
